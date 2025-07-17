@@ -1,0 +1,14 @@
+.invitation {
+  text-align: center;
+  margin: 30px 0;
+
+}
+
+.bank-button {
+	color: #fff;
+	background-color: var(--main-color) !important;
+	border-color: var(--main-color) !important;
+}
+.complimentary_close{
+  margin-top: 10px;
+}

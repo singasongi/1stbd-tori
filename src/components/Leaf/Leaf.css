@@ -1,0 +1,97 @@
+.leaf-down {
+  position: fixed;
+
+  width: 2rem;
+  height: 2rem;
+  z-index: 999;
+  top: -10%;
+  left: var(--left-position);
+  animation-delay: var(--fall-delay), 0s;
+  -webkit-animation-delay: var(--fall-delay), 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+  animation-name: leaf-fall, leaf-shake;
+  -webkit-animation-name: leaf-fall, leaf-shake;
+  animation-duration: var(--fall-duration), var(--shake-duration);
+  -webkit-animation-duration: var(--fall-duration), var(--shake-duration);
+  animation-timing-function: linear, ease-in-out;
+  -webkit-animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  -webkit-animation-iteration-count: infinite, infinite;
+
+}
+
+@keyframes leaf-fall {
+  0% {
+    top: -10%;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+@-webkit-keyframes leaf-fall {
+  0% {
+    top: -10%;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes leaf-shake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-(var(--shake-degree)));
+  }
+
+  50% {
+    transform: rotate(var(--shake-degree));
+  }
+
+  75% {
+    transform: rotate(-(var(--shake-degree)));
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes leaf-shake {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-(var(--shake-degree)));
+    -webkit-transform: rotate(-(var(--shake-degree)));
+  }
+
+  50% {
+    transform: rotate(var(--shake-degree));
+    -webkit-transform: rotate(var(--shake-degree));
+
+  }
+
+  75% {
+    transform: rotate(-(var(--shake-degree)));
+    -webkit-transform: rotate(-(var(--shake-degree)));
+
+  }
+
+  100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+
+  }
+}

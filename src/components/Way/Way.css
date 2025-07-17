@@ -1,0 +1,80 @@
+
+.way {
+	text-align: center;
+}
+
+.map {
+	/* max-width: 440px; */
+	max-width: calc(100% - 20px);
+	width: 100vw;
+	/* background-color: white; */
+	/* margin: 10px 10px 0 10px; */
+	/* position: relative; */
+	/* padding: 10px 10px 0 10px; */
+}
+
+.map-desc {
+	max-width: 440px;
+	margin: 0 10px 0 10px;
+}
+
+#map-tooltip {
+	/* margin:10px 10px 0 10px; */
+}
+
+.tooltip-inner {
+	background-color: transparent;
+}
+
+#map-tooltip>.tooltip-inner {
+	background-color: transparent;
+	max-width: 440px;
+	/* color: #000; */
+	/* border: 1px solid #062e56; */
+}
+
+#map-tooltip>.tooltip-arrow {
+	/* background-color: transparent; */
+	visibility: hidden;
+}
+
+.apps-container {
+	border: solid var(--main-color);
+	color: var(--main-color);
+	margin: 20px;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+
+.apps-header {
+	text-align: center;
+	font-size: 1.3rem;
+	margin: 0 15px;
+
+}
+
+.apps-header:child(0) {
+	margin-bottom: 10px;
+
+}
+
+.apps-header>.apps-header-desc {
+	/* text-align:right; */
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.apps-buttons {
+	display: flex;
+	justify-content: space-around;
+}
+
+.app-button {
+	height: 60px;
+	width: 60px;
+}
+
+.app-name {
+	text-align: center;
+}

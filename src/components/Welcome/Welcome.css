@@ -1,0 +1,16 @@
+
+.welcome-names{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.studo100 {
+	/* position: relative;
+	top:-20px; */
+	max-width: calc(100% - 20px);
+	width: 100vw;
+	padding: 10px;
+}

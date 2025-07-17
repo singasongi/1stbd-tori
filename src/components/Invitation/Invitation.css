@@ -1,0 +1,22 @@
+.invitation {
+  text-align: center;
+  margin: 30px 0;
+
+}
+
+.family {
+  margin: 30px 0;
+}
+
+.names {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.parents, .our {
+  font-size: 1.4rem;
+  margin: 5px;
+}
