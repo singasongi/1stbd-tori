@@ -33,7 +33,7 @@ export function Contact() {
                 </Button>
             </div>
             <div className="complimentary_close">
-                <div>심규원과 김송이의 모바일 청첩장입니다. </div>
+                <div>심은유의 돌잔치 초대장입니다. </div>
                 <div>축하연락은 알고계신 연락처로 연락 부탁드리며, </div>
                 <div>오류사항이나 기타 문의사항에 대해서는</div>
                 <div><a href="mailto:singasongik@gmail.com">singasongik@gmail.com</a>으로 연락주시면 감사하겠습니다!</div>

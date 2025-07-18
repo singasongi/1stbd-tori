@@ -58,6 +58,7 @@ export function Calendar(props: Iprops) {
 
   return (
     <div>
+      <div className='container'>
       <div className="calendar-container">
         <div className="calendar-outter">
           <div className="calendar-inner">
@@ -83,6 +84,7 @@ export function Calendar(props: Iprops) {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
 

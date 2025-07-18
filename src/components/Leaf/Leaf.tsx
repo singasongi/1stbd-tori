@@ -10,7 +10,7 @@ export function Leaf() {
     let arr = [];
 
     for (let i = 0; i < size; i++) {
-        let x = Math.floor(Math.random() * 20);
+        let x = Math.floor(Math.random() * 22);
         arr.push(x);
     }
 
@@ -35,7 +35,7 @@ export function Leaf() {
         leaves.push(
             <div key={x} className="leaves">
                 <img className="leaf-down"
-                    src={"/assets/leaves/" + x + ".svg"}
+                    src={process.env.PUBLIC_URL+"/assets/leaves/" + x + ".svg"}
                     // src={"%PUBLIC_URL%/assets/leaves/"+x+".svg"} 
                     style={leafStyle}
                 ></img>
