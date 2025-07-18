@@ -5,21 +5,6 @@
 	justify-content: space-around;
 }
 
-.break-item, .break-reverse-item {
-	max-width: 110px;
-	/* font-size: 310px; */
-	/* margin: 0 auto; */
+.break-item {
+	max-width: 60px;
 }
-
-.leaves-item {
-	width: 30px;
-	margin: 0 auto;
-
-	/* margin: 0 auto; */
-}
-
-.break-reverse-item {
-	transform: scaleX(-1);
-}
-
-.bank-button {}

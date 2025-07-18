@@ -7,8 +7,8 @@ export function Break() {
 
     <>
       <div className="breaks">
-        <img className={"break"}
-          src={process.env.PUBLIC_URL + `assets/break}/cake.svg`}
+        <img className={"break-item"}
+          src={process.env.PUBLIC_URL + `/assets/break/cake.svg`}
         />
       </div>
     </>

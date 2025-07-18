@@ -8,15 +8,16 @@ import { CountDown } from './components/CountDown/CountDown';
 import { Timeline } from './components/Timeline/Timeline';
 import { Leaf } from './components/Leaf/Leaf';
 import { Break } from './components/Break/Break';
+import { Contact } from './components/Contact/Contact';
 
 function App() {
   return (
     <div className="App-container">
       <div className="App">
         <div className='row'>
-          <img src={"/assets/back/music-note.svg"}
+          <img src={process.env.PUBLIC_URL+"/assets/back/music-note.svg"}
           ></img>
-          <img src={"/assets/back/congrate.svg"}
+          <img src={process.env.PUBLIC_URL+"/assets/back/congrate.svg"}
           ></img>
         </div>
         { <Leaf /> }
@@ -32,7 +33,7 @@ function App() {
         <Break/>
         <CountDown date='2025-10-17 18:00' />
         <Break/>
-
+        <Contact /> 
         </>
         /*
         <Break type={2} />
@@ -44,12 +45,12 @@ function App() {
         <Way />
         <Break type={1} />
         <Bank />
-        <Break type={5} />
-        <Contact /> */}
+        <Break type={5} />*/
+        }
         <div className='row tail'>
-          <img src={"/assets/back/flag.svg"}
+          <img src={process.env.PUBLIC_URL+"/assets/back/flag.svg"}
           ></img>
-          <img src={"/assets/back/gift.svg"}
+          <img src={process.env.PUBLIC_URL+"/assets/back/gift.svg"}
           ></img>
         </div>
 
