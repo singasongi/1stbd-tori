@@ -9,7 +9,7 @@ export function Welcome() {
             <div className='mt-4'></div>
             <h2> 심은유</h2><h2>첫번째 생일</h2>
                 <div className='family'>
-                    <div className='names'>아빠 <div className='our'>심규원 &nbsp</div> 엄마 <div className='our'>김송이</div></div>
+                    <div className='names'>아빠 <div className='our'>심규원 &nbsp;</div> 엄마 <div className='our'>김송이</div></div>
         
                 </div>
             <h2>2025년 10월 11일 토요일 6PM</h2>

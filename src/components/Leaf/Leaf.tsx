@@ -10,7 +10,7 @@ export function Leaf() {
     let arr = [];
 
     for (let i = 0; i < size; i++) {
-        let x = Math.floor(Math.random() * 21);
+        let x = Math.floor(Math.random() * 22);
         arr.push(x);
     }
 
