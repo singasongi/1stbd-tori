@@ -19,7 +19,7 @@ export function Contact() {
             }
             kakao.Link.createCustomButton({
                 container: "#kakao-link-btn",
-                templateId: 81248,
+                templateId: 122553,
             });
 
         }

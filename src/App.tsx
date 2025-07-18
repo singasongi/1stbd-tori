@@ -7,26 +7,31 @@ import { Calendar } from './components/Calendar/Calendar';
 import { CountDown } from './components/CountDown/CountDown';
 import { Timeline } from './components/Timeline/Timeline';
 import { Leaf } from './components/Leaf/Leaf';
+import { Break } from './components/Break/Break';
 
 function App() {
   return (
     <div className="App-container">
       <div className="App">
         <div className='row'>
-          <img src={"/assets/back/pink.svg"}
+          <img src={"/assets/back/music-note.svg"}
           ></img>
-          <img src={"/assets/back/yellow.svg"}
+          <img src={"/assets/back/congrate.svg"}
           ></img>
         </div>
         { <Leaf /> }
-        {/* <Break  type={0}/> */}
+        <Break/>
         { <Welcome />}
-        {/*<Break type={4} /> */}
+        <Break/>
         {<>
         <Invitation />
+        <Break/>
         <Timeline/>
+        <Break/>
         <Calendar date='2025-10-17' />
+        <Break/>
         <CountDown date='2025-10-17 18:00' />
+        <Break/>
 
         </>
         /*
@@ -42,9 +47,9 @@ function App() {
         <Break type={5} />
         <Contact /> */}
         <div className='row tail'>
-          <img src={"/assets/back/pink2.svg"}
+          <img src={"/assets/back/flag.svg"}
           ></img>
-          <img src={"/assets/back/yellow2.svg"}
+          <img src={"/assets/back/gift.svg"}
           ></img>
         </div>
 
