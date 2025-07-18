@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/1stbd-tori/static/css/main.198b890d.css",
-    "main.js": "/1stbd-tori/static/js/main.3aafa332.js",
+    "main.css": "/1stbd-tori/static/css/main.923b215e.css",
+    "main.js": "/1stbd-tori/static/js/main.95f36803.js",
     "static/js/453.6b90054a.chunk.js": "/1stbd-tori/static/js/453.6b90054a.chunk.js",
     "static/media/amsterdam.ttf": "/1stbd-tori/static/media/amsterdam.83056686f872b3fd07eb.ttf",
     "index.html": "/1stbd-tori/index.html",
-    "main.198b890d.css.map": "/1stbd-tori/static/css/main.198b890d.css.map",
-    "main.3aafa332.js.map": "/1stbd-tori/static/js/main.3aafa332.js.map",
+    "main.923b215e.css.map": "/1stbd-tori/static/css/main.923b215e.css.map",
+    "main.95f36803.js.map": "/1stbd-tori/static/js/main.95f36803.js.map",
     "453.6b90054a.chunk.js.map": "/1stbd-tori/static/js/453.6b90054a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.198b890d.css",
-    "static/js/main.3aafa332.js"
+    "static/css/main.923b215e.css",
+    "static/js/main.95f36803.js"
   ]
 }
