@@ -29,7 +29,7 @@ export function Contact() {
             {/* <h2 className='title'>공유하기</h2> */}
             <div className="d-grid gap-2">
                 <Button id="kakao-link-btn" className='bank-button' size="lg" onClick={sendCustomShare}>
-                    카카오톡으로 청첩장 공유하기
+                    카카오톡으로 초대장 공유하기
                 </Button>
             </div>
             <div className="complimentary_close">
