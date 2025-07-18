@@ -6,6 +6,7 @@ import { Invitation } from './components/Invitation/Invitation';
 import { Calendar } from './components/Calendar/Calendar';
 import { CountDown } from './components/CountDown/CountDown';
 import { Timeline } from './components/Timeline/Timeline';
+import { Leaf } from './components/Leaf/Leaf';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <img src={"/assets/back/yellow.svg"}
           ></img>
         </div>
-        {/* { <Leaf /> } */}
+        { <Leaf /> }
         {/* <Break  type={0}/> */}
         { <Welcome />}
         {/*<Break type={4} /> */}
