@@ -6,7 +6,7 @@ import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detec
 export function Way() {
   const [show, setShow] = useState(false);
   const target = useRef(null);
-  const address = "경북 포항시 남구 대이로 18"
+  const address = "경북 포항시 남구 희망대로 815"
   const copyAddress = (text: string, isShow: boolean) => {
     if (!document.queryCommandSupported("copy")) {
       return alert("클립보드에 복사하지 못했습니다.");
@@ -34,35 +34,35 @@ export function Way() {
   const appMap = [
     {
       name: "네이버지도",
-      img: "/assets/map/navermap.png",
-      scheme: "nmap://place?lat=36.017378546429484&lng=129.34358588092584&name=UA%EC%BB%A8%EB%B2%A4%EC%85%98"
+      img: process.env.PUBLIC_URL+"/assets/map/navermap.png",
+      scheme: "nmap://place?lat=36.0102113724829&lng=129.35943297580255&name=%ED%8B%B0%ED%8C%8C%EB%8B%88%20%EC%9B%A8%EB%94%A9%20%EC%B2%AD%EC%86%94%EB%B0%AD"
     }, {
       name: "구글지도",
-      img: "/assets/map/googlemap.png",
-      scheme: "https://maps.google.com/?q=UA컨벤션&center=36.017378546429484,129.34358588092584&views=transit"
+      img: process.env.PUBLIC_URL+"/assets/map/googlemap.png",
+      scheme: "https://maps.google.com/?q=티파니웨딩청솔밭&center=36.0102113724829,129.35943297580255&views=transit"
     }, {
       name: "카카오지도",
-      img: "/assets/map/kakaomap.png",
-      scheme: "kakaomap://look?p=36.017378546429484,129.34358588092584"
+      img: process.env.PUBLIC_URL+"/assets/map/kakaomap.png",
+      scheme: "kakaomap://look?p=36.0102113724829,129.35943297580255"
     }, {
       name: "티맵",
-      img: "/assets/map/tmap.png",
-      scheme: "tmap://route?goalname=UA컨벤션&goalx=129.34358588092584&goaly=36.017378546429484"
+      img: process.env.PUBLIC_URL+"/assets/map/tmap.png",
+      scheme: "tmap://route?goalname=티파니웨딩청솔밭&goalx=129.35943297580255&goaly=36.0102113724829"
     },
   ]
 
   const desktopMap = [
     {
       name: "네이버지도",
-      img: "/assets/map/navermap.png",
+      img: process.env.PUBLIC_URL+"/assets/map/navermap.png",
       scheme: "https://naver.me/GJrFyntP"
     }, {
       name: "구글지도",
-      img: "/assets/map/googlemap.png",
-      scheme: "https://maps.google.com/?q=UA컨벤션&center=36.017378546429484,129.34358588092584&views=transit"
+      img: process.env.PUBLIC_URL+"/assets/map/googlemap.png",
+      scheme: "https://maps.google.com/?q=티파니웨딩청솔밭&center=36.0102113724829,129.35943297580255&views=transit"
     }, {
       name: "카카오지도",
-      img: "/assets/map/kakaomap.png",
+      img: process.env.PUBLIC_URL+"/assets/map/kakaomap.png",
       scheme: "http://kko.to/xJeDEX7pG"
     },
   ]
@@ -106,11 +106,11 @@ export function Way() {
     <div className="container">
       <h1 className='title'>오시는길</h1>
       <h6>{address} </h6>
-      <h5> UA컨벤션 / 6층 그랜드볼룸홀</h5>
+      <h5> 티파니웨딩청솔밭 / 6층 그랜드볼룸홀</h5>
       <div >
 
         <img className="map" ref={target} onClick={() => copyAddress(address, true)}
-          src={"/assets/map1.jpg"}
+          src={process.env.PUBLIC_URL+"/assets/map1.jpg"}
 
         ></img>
         <Overlay target={target.current} show={show} placement="bottom">

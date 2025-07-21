@@ -9,6 +9,9 @@ import { Timeline } from './components/Timeline/Timeline';
 import { Leaf } from './components/Leaf/Leaf';
 import { Break } from './components/Break/Break';
 import { Contact } from './components/Contact/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Way } from './components/Way/Way';
+
 
 function App() {
   return (
@@ -32,6 +35,8 @@ function App() {
         <Calendar date='2025-10-17' />
         <Break/>
         <CountDown date='2025-10-17 18:00' />
+        <Break/>
+        <Way />
         <Break/>
         <Contact /> 
         </>
