@@ -12,8 +12,8 @@ export function Welcome() {
                     <div className='names'>아빠 <div className='our'>심규원 &nbsp;</div> 엄마 <div className='our'>김송이</div></div>
         
                 </div>
-            <h2>2025년 10월 11일 토요일 6PM</h2>
-            <h2>포항 티파니 웨딩홀 / 어쩌고 홀</h2>
+            <h2>2025년 10월 11일 토요일 6:30PM</h2>
+            <h2>포항 라메르 웨딩홀 / 아로하 홀</h2>
         
         </div>
     )

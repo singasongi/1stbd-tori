@@ -6,7 +6,7 @@ import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detec
 export function Way() {
   const [show, setShow] = useState(false);
   const target = useRef(null);
-  const address = "경북 포항시 남구 희망대로 815"
+  const address = "경상북도 포항시 북구 삼호로 451 1층"
   const copyAddress = (text: string, isShow: boolean) => {
     if (!document.queryCommandSupported("copy")) {
       return alert("클립보드에 복사하지 못했습니다.");
@@ -35,19 +35,19 @@ export function Way() {
     {
       name: "네이버지도",
       img: process.env.PUBLIC_URL+"/assets/map/navermap.png",
-      scheme: "nmap://place?lat=36.0102113724829&lng=129.35943297580255&name=%ED%8B%B0%ED%8C%8C%EB%8B%88%20%EC%9B%A8%EB%94%A9%20%EC%B2%AD%EC%86%94%EB%B0%AD"
+      scheme: "nmap://place?lat=36.0700561&lng=129.3970329"
     }, {
       name: "구글지도",
       img: process.env.PUBLIC_URL+"/assets/map/googlemap.png",
-      scheme: "https://maps.google.com/?q=티파니웨딩청솔밭&center=36.0102113724829,129.35943297580255&views=transit"
+      scheme: "https://maps.google.com/?q=라메르웨딩컨벤션&center=36.0700561,129.3970329&views=transit"
     }, {
       name: "카카오지도",
       img: process.env.PUBLIC_URL+"/assets/map/kakaomap.png",
-      scheme: "kakaomap://look?p=36.0102113724829,129.35943297580255"
+      scheme: "kakaomap://look?p=36.0700561,129.3970329"
     }, {
       name: "티맵",
       img: process.env.PUBLIC_URL+"/assets/map/tmap.png",
-      scheme: "tmap://route?goalname=티파니웨딩청솔밭&goalx=129.35943297580255&goaly=36.0102113724829"
+      scheme: "tmap://route?goalname=라메르웨딩컨벤션&goalx=129.3970329&goaly=36.0700561"
     },
   ]
 
@@ -59,7 +59,7 @@ export function Way() {
     }, {
       name: "구글지도",
       img: process.env.PUBLIC_URL+"/assets/map/googlemap.png",
-      scheme: "https://maps.google.com/?q=티파니웨딩청솔밭&center=36.0102113724829,129.35943297580255&views=transit"
+      scheme: "https://maps.google.com/?q=라메르웨딩컨벤션&center=36.0700561,129.3970329&views=transit"
     }, {
       name: "카카오지도",
       img: process.env.PUBLIC_URL+"/assets/map/kakaomap.png",
@@ -71,11 +71,11 @@ export function Way() {
   const appTaxi = [
     {
       name: "카카오티",
-      img: "/assets/map/kakaot.png",
+      img: process.env.PUBLIC_URL+"/assets/map/kakaot.png",
       scheme: "kakaotaxi://"
     }, {
       name: "UT",
-      img: "/assets/map/ut.png",
+      img: process.env.PUBLIC_URL+"/assets/map/ut.png",
       scheme: "uber://"
     }
   ]
@@ -106,8 +106,8 @@ export function Way() {
     <div className="container">
       <h1 className='title'>오시는길</h1>
       <h6>{address} </h6>
-      <h5> 티파니웨딩청솔밭 / 6층 그랜드볼룸홀</h5>
-      <div >
+      <h5> 라메르웨딩컨벤션 / 아로하홀</h5>
+      {/* <div >
 
         <img className="map" ref={target} onClick={() => copyAddress(address, true)}
           src={process.env.PUBLIC_URL+"/assets/map1.jpg"}
@@ -125,7 +125,7 @@ export function Way() {
           약도를 클릭하시면 주소가 복사됩니다.
         </Alert>
 
-      </div>
+      </div> */}
       <div className="map-apps">
         <div className="apps-container">
           <div className="apps-header">
