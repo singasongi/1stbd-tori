@@ -36,6 +36,13 @@ export function Timeline() {
             ></img>
     </div>
   </div>
+
+    <div className="timeline-container right">
+    <div className="content">
+        <img className='timeline-img' src={process.env.PUBLIC_URL+"/assets/img/300.png"}
+            ></img>
+    </div>
+  </div>
 </div>
         
         </div>
