@@ -63,7 +63,7 @@ export function Calendar(props: Iprops) {
         <div className="calendar-outter">
           <div className="calendar-inner">
             <div className="full_date">
-              <span >{designationDate.format('YYYY')}년 {designationDate.format('MM')}월{designationDate.format('D')}일 / 6시 PM</span>
+              <span >{designationDate.format('YYYY')}년 {designationDate.format('MM')}월{designationDate.format('D')}일 / 6:30 PM</span>
             </div>
             <table className="months-table w-100">
               <tbody>
