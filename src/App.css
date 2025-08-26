@@ -47,6 +47,7 @@
   margin: 0 auto;
   color: 0f0f0f;
   background-color: #f5f5f5;
+  overflow-x: hidden;
 }
 
 .row{

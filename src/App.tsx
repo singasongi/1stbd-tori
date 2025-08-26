@@ -32,9 +32,9 @@ function App() {
         <Break/>
         <Timeline/>
         <Break/>
-        <Calendar date='2025-10-17' />
+        <Calendar date='2025-10-11' />
         <Break/>
-        <CountDown date='2025-10-17 18:00' />
+        <CountDown date='2025-10-11 18:30' />
         <Break/>
         <Way />
         <Break/>
