@@ -14,3 +14,15 @@
 	width: 100vw;
 	padding: 10px;
 }
+.main-cont{
+	position: relative;
+}
+.title-main{
+	position: absolute;
+	white-space: nowrap;
+	left: 50%;
+    color: var(--main-color);
+    transform: translate(-50%, 30px);
+    font-size: 2.5rem;
+	 -webkit-text-stroke: 1px var(--main-color);
+}

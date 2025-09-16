@@ -3,9 +3,12 @@ import './Welcome.css';
 export function Welcome() {
     return (
         <div className="container">
-               <h1 className='title'>1st Birthday Party</h1>
-            <img className='studo100' src={process.env.PUBLIC_URL+"/assets/100-studio.jpg"}
-            ></img>
+            <div className='main-cont'>
+                <h1 className='title-main'>1st Birthday Party</h1>
+                <img className='studo100' src={process.env.PUBLIC_URL+"/assets/100-studio.png"}
+                ></img>
+            </div>
+
             <div className='mt-4'></div>
             <h2> 심은유</h2><h2>첫번째 생일</h2>
                 <div className='family'>
